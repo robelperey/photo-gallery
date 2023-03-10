@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  font-family: "Fira Sans";
+  font-size: 2.5rem;
+  color: #ffacac;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 20px 0;
+  background-color: #fbffb1;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+footer {
+  margin: 0;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #ffebb4;
+  color: #ffacac;
+  padding: 16px;
+}
+
+footer > p {
+  margin: 0;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+footer > p > a {
+  color: #ffacac;
+  text-decoration: none;
+}
+
+footer > p > a:hover {
+  text-decoration: underline;
+}
